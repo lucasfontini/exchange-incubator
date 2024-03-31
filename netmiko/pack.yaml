@@ -1,0 +1,13 @@
+---
+ref: netmiko_automation
+name: netmiko_automation
+description: netmiko_automation
+keywords:
+  - automation
+  - config python
+  - netmiko
+version: 1.0.0
+python_versions:
+  - "3"
+author: Lucas Fontini
+email: lucasfontiniemail@gmail.com

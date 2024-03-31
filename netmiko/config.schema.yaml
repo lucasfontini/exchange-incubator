@@ -1,0 +1,11 @@
+---
+user:
+  description: "Username"
+  type: "string"
+  required: true
+  secret: false
+password:
+  description: "Username"
+  type: "string"
+  required: true
+  secret: true
