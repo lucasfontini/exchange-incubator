@@ -30,7 +30,7 @@ class main(Action):
         if credentials:
             connection = connect(hostname, USER, PASSWORD,
                                  device_type=device_type, port=port)
-            if connection != None:
+            if connection is not None:
                 output = connection.send_command(command)
                 connection.disconnect()
                 print(output)
